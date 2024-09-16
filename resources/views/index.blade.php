@@ -22,6 +22,8 @@
                 <div class="card-body">
                         <p class=" card-title rounded-pill badge bg-secondary">{{$Posts['id']}}-    {{$Posts['title']}}   </p>
                         <p class="card-text">{{$Posts->content}}</p>
+                        <
+
                         <a href="{{route('post.show',$Posts ->id)}}" class="btn btn-warning">show</a>
                         <a href="{{route('post.edit',$Posts->id)}}" class="btn btn-success">update</a>
 
